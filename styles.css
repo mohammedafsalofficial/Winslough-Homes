@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home .header {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 3rem;
+}
+#home .header h1 {
+  flex: 9;
+  width: 50%;
+  margin-left: 7rem;
+}
+#home .header button {
+  border: 1px solid gray;
+  background-color: white;
+  color: gray;
+  font-size: larger;
+  flex: 1;
+  text-transform: uppercase;
+}
+#home .header button:hover {
+  border-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+#home .container img {
+  height: 86vh;
+  width: 100%;
+}
+#home .container h1 {
+  position: absolute;
+  bottom: 10rem;
+  left: 10rem;
+  color: whitesmoke;
+  font-size: 80px;
+}
+
+#about-us {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10rem 20rem;
+  line-height: 1.8;
+}
+#about-us h2 {
+  text-transform: uppercase;
+}
+#about-us p {
+  font-weight: bolder;
+}
+
+#listings .header {
+  text-transform: uppercase;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+#listings .available-homes {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#listings .available-homes .home-img img {
+  height: 70vh;
+  width: 100%;
+}
+#listings .available-homes .about-home {
+  margin: 170px 10rem;
+  font-size: large;
+}
+#listings .available-homes .about-home p {
+  padding: 0 8rem;
+  margin: 2rem 0;
+}
+#listings .available-homes .about-home button {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 1rem;
+  color: gray;
+  font-size: large;
+  font-weight: 800;
+  flex: 1;
+  margin-left: 8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#listings .available-homes .about-home button:hover {
+  border-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+#services {
+  margin: 10rem 5rem;
+  margin-bottom: -5rem;
+}
+#services .service-header {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 5rem;
+}
+#services .service-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+#services .service-img img {
+  height: 60vh;
+  width: 100%;
+}
+#services .description {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.4rem;
+}
+#services .description div {
+  position: relative;
+  bottom: 12rem;
+  margin: 0.5rem;
+  padding: 0.5rem 2rem;
+  background-color: whitesmoke;
+}
+#services .description div h2 {
+  color: grey;
+}
+#services .description div p {
+  color: rgb(71, 71, 71);
+}
+#services .description div h1 {
+  font-size: large;
+  text-transform: uppercase;
+}
+
+#about-business img {
+  height: 100vh;
+  width: 100%;
+}
+#about-business h1 {
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  bottom: 25rem;
+  padding: 0 30rem;
+  line-height: 2;
+  font-size: 2.2rem;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10rem;
+}
+#footer .about-us {
+  margin-left: 15rem;
+}
+#footer .about-us h1 {
+  font-size: 3rem;
+}
+#footer .main-address div {
+  margin: 3rem 15rem;
+}
+#footer .main-address div h3 {
+  text-transform: uppercase;
+}/*# sourceMappingURL=styles.css.map */
